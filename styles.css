@@ -120,6 +120,7 @@ header img{
     top: 350px;
     right: 280px;
 }
+
 .fb__edit__coverimg:hover{
     background-color: #f5eeee;
 }
@@ -130,8 +131,8 @@ header img{
     color: #1d1f23;
     background-color: #ffffff;
     position: absolute;
-    top: 4px;
-    left: 16px;
+    top: 10px;
+    left: 10px;
 }
 .fb__avt{
     width: 100vw;
@@ -155,7 +156,8 @@ header img{
 .fb__avt__img:hover{
     opacity: 0.9;
 }
-.fa-camera{
+.camera__icon{
+    display: flex;
     width: 36px;
     height: 36px;
     background-color: #3a3b3c;
@@ -166,14 +168,13 @@ header img{
     left: 373px;
     top: 101px;
 }
+.camera__icon i{
+    margin: auto;
+}
 .fa-camera:hover{
     background-color: #474849;
 }
-.fa-camera::before{
-    display: flex;
-    justify-content: center;
-    margin-top: 6px;
-}
+
 .fb__avt h1{
     color: #e4e6eb;
     font-size: 32px;
@@ -197,7 +198,7 @@ header img{
 .fb__avt__friend img{
     width: 32px;
     height: 32px;
-    border: solid #242526 2px;
+    border: solid #242526;
     border-radius: 50%;
 }
 .fb__avt__friend8{
@@ -367,6 +368,26 @@ hr{
 }
 .messsenger__tooltip:hover .tooltiptext {
     visibility: visible;
+}
+.new__messenger{
+    width: 28px;
+    height: 28px;
+    background-color: #4b4b4c;
+    border-radius: 50%;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    font-size: 20px;
+    position: fixed;
+    bottom: 5px;
+    right: 18px;
+    z-index: 1;
+    display: flex;
+}
+.fa-pen-to-square{
+    margin: auto;
+}
+.new__messenger:hover{
+    background-color: #5b5b5c;
 }
 .footer{
     width: 100vw;
